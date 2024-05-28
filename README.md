@@ -1,24 +1,23 @@
-# README
+# String Calculator
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Ruby on Rails application that implements a String Calculator, following the Test-Driven Development (TDD) approach. The String Calculator can sum numbers in a string with various delimiters and handle different edge cases such as empty strings, new lines between numbers, and custom delimiters.
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+- Sum numbers in a comma-separated string
+- Handle new lines between numbers
+- Support custom delimiters
+- Throw an exception for negative numbers and list all negative numbers in the exception message
 
-* System dependencies
+## Requirements
 
-* Configuration
+- Ruby 2.7.2 or later
+- Rails 6.1 or later
 
-* Database creation
+## Setup
 
-* Database initialization
+1. **Clone the repository:**
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+   ```bash
+   git clone https://github.com/anshk1717/string-caluclator
+   cd string_calculator
